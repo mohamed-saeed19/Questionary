@@ -365,7 +365,7 @@ app.delete("/users/:id", async function (req: Request, res: Response) {
 })
 
 // start express server
-app.listen(3000||process.env.PORT)
+app.listen(3000)
 
 
 // export class Statiscs{
